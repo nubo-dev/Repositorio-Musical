@@ -1,0 +1,189 @@
+/* Estilo de la lista de los discos */
+
+/* Caja  */
+.div-Box-ListAlbums{
+    margin-top: 5px;
+    padding: 10px;
+}
+
+/* Titulo */
+
+.grid-title{
+    /* background: greenyellow; */
+}
+
+.p-title{
+    font-size: 16px;
+    color: #6D6D6D;
+}
+
+/* Albunes */
+.grid-box-albums{
+    /* background: greenyellow; */
+}
+
+.paper-items{
+    padding: 5px;
+}
+
+/* álbumes */
+.img-Album{
+    width: 95%;
+    border: 1px solid #333;
+}
+
+.grid-content-album{
+    /* background: #333; */
+}
+
+.h1-album-titulo{
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;   
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+}
+
+.h2-content-album-artista{
+    color: #F44336;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.p-ver-canciones{
+    font-size: 13px;
+    color: #333;
+}
+
+.p-ver-canciones:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.p-content-album-discografia{
+    color: #6D6D6D;
+    font-size: 11px;
+    text-align: left;
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.div-usuario{
+    position: relative;
+    top: -2px;
+    text-align: right;
+}
+
+.b-usuario{
+    text-transform: capitalize;
+}
+
+.p-usuario{
+    font-size: 10px;
+    color: rgb(163, 163, 163);
+    font-style: italic;
+}
+
+
+/* Canciones */
+
+#alert-dialog-title{
+    padding: 25px 0px 10px 0px;
+}
+
+.p-title-dialog{
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+}
+
+.p-cantante-dialog{
+    color: #F44336;
+    margin: 0px;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.p-publicacion{
+    color: #6D6D6D;
+    margin: 0px;
+    font-size: 12px;
+    margin-left: 30px;
+    font-style: italic
+}
+
+.grid-imagen{
+    text-align: center;
+    padding: 10px;
+}
+
+.dialogContent-container-canciones{
+    margin: 10px 0px 0px 0px;
+}
+
+.img-dialog{
+    width: 90%;
+    border: 1px solid #333;
+}
+
+.div-canciones{
+    margin: 0px;
+    padding: 0px;
+}
+
+.p-canciones{
+    font-size: 13px;
+    margin: 15px 0px 15px 0px;
+    text-transform: capitalize;
+}
+
+.b-num-canciones{
+    color: rgb(165, 165, 165);
+    font-weight: 100;
+}
+
+.b-nombre-canciones{
+    color: #333;
+    font-weight: 100;
+}
+
+.p-canciones:hover{
+    color: #333;
+}
+
+.div-discongrafia-dialog{
+    text-align: right;
+}
+
+.p-discografia-dialog{
+    font-style: italic;
+    font-size: 9px;
+    padding-top: 10px;
+    color: #6D6D6D;
+}
+
+.grid-discografia{
+    background: #F44336;
+}
+
+.grid-button-salir{
+    text-align: right;
+}
+
+/* Total canciones */
+.p-total-canciones{
+    font-size: 13px;
+    text-transform: lowercase;
+    color: rgb(165, 165, 165);
+}
+
+.b-usuario-canciones{
+    text-transform: capitalize;
+    font-weight: 100;
+    color: #333;
+}

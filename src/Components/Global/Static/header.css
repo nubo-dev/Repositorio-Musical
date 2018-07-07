@@ -1,0 +1,27 @@
+/* Estilo del header */
+
+/* Color de fondo */
+.Head-ToolBar{
+    background: #fff;
+    color: #333;
+}
+
+/* Menu */
+
+.Grid-Lista{
+    text-align: left;
+}
+
+.ul-head{
+    list-style-type: none;
+    text-align: right;
+}
+
+.li-head{
+    /* float: left; */
+}
+
+.li-head a {
+    text-decoration: none;
+    color: #333;
+}
